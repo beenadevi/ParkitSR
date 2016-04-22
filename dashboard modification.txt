@@ -1,0 +1,19 @@
+I will give you many comments. Let me know what is unclear. This may be different that the spec sheet, and you should follow this list 
+
+1. if the property owner has more than one lot, there should be a dropdown so the owner can choose the lot.
+2. The address of the parking lot should be shown across the top of the page. 
+3. the box with "110 cars parked" should show the "Total Cars Parked NOW"
+4. Box with revenue, should be "monthly" revenue.
+5. the box showing "9 Spots leased out" should be changed to "9 of 10 Spots Leased out". The 9 number would come from the total number of spots lease out ( paid for) and the 10 number would be from the spots available in the lot.
+6. The box showing "10 spots in lot" should be changed to "# of Visitors in lot - (this would be people that are not registered)"
+
+7. The graph in the middle - Should Be a graph with HOURLY data points showing 1. The total number of cars at point, 2. the total number of Paid people, and 3. The total number of visitors.
+
+8. "Total Cars parked overtime" - should have a date range picker - same thing with revenue.
+9. Total cars towed - should be total number of violations
+
+The next section - the footer - should be titled "Activity Stream"
+
+10. First Section (which now shows "top revenues" should be a log of "Cars Entering/Exiting" - Showing a) Date, time, License Plate, Entry or Exit and Status (was this a registered car - show a check in Green, or and x in red if this was a violation)
+
+I dont have any more changes right now. I will think about it and let you know.

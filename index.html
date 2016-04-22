@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- title and meta -->
+<meta charset="utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="" />
+<title>ParkitSR</title>
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link href="fonts/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+<!-- Latest compiled JavaScript -->
+<script src="bootstrap.min.js"></script>
+    
+<!-- css 
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>-->
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/main.css" />
+    
+<!-- js -->
+<script src="js/classie.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 200,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+
+
+<script type="text/javascript">
+    function toggle_visibilityof3(id,id1,id2,id8,id9,id10){
+        var e= document.getElementById(id);
+        e.style.display='block';
+        var f= document.getElementById(id1);
+        f.style.display='none';
+        var f= document.getElementById(id2);
+        f.style.display='none';
+        var myClassName=" lighter";
+        var d=document.getElementById(id8);
+        d.className=d.className.replace(myClassName,"");
+        d.className=d.className+myClassName;
+        var f=document.getElementById(id9);
+        f.className=f.className.replace(myClassName,"");
+        f.className=f.className+myClassName;
+        var e=document.getElementById(id10);
+        e.className=e.className.replace(myClassName,"");
+        
+
+        
+    }
+    </script>
+
+<script type="text/javascript">
+    function switchman(id4,id5){
+        var myClassName=" darker";
+        var d=document.getElementById(id4);
+        d.className=d.className.replace(myClassName,"");
+        var e=document.getElementById(id5);
+        e.className=e.className.replace(myClassName,"");
+        e.className=e.className+myClassName;
+    }
+</script>
+
+</head>
+
+
+
+<body>
+<div id="wrapper">
+
+<header>
+    <div class="container clearfix">
+        <h1 id="logo">
+            <img id="logoimg" src="assets/logo.png">
+        </h1>
+        <nav>
+            <a href="">Home</a>
+            <a href="">How it works</a>
+            <a href=""><b><i class="fa fa-lock"></i>&nbsp;Login/Register</b></a>
+        </nav>
+    </div>
+</header><!-- /header -->
+<section id="topcontainer">
+    <section id="ssec">
+        <section class="headtext">
+        <p class="headin">Guest Parking</p>
+        <p class="toptext">Let guests park cars,<br>hassle-free</p>
+        <a href="#" class="regbutton">REGISTER GUEST</a>
+        </section>
+        <section class="truck">
+            <section class="truckpad">
+        <img class="truckimg" src="assets/truck1.png"></section></section>
+    </section>
+    <section id="tsec">
+        <section class="headtext1">
+        <p class="headin1">Zero Problem Parking</p>
+        <p class="toptext1">Save Yourself from<br>parking stress</p>
+        <a href="#" class="regbutton">BOOK SPOT</a>
+        </section>
+        <img class="truckimg1" src="assets/truck2.png">
+    </section>
+    <section id="ssecback"></section>
+    <section id="tsecback"></section>
+ 
+</section>
+<section class="mainbody">
+<section class="benefits">
+    <p id="benefit">BENEFITS</p>
+    <section id="circles">
+        <section class="cir" id="cir12">
+            <section class="cirimgback"><img class="cirimg" src="assets/search.png"></section>
+            <p class="cirtext">Save Money</p>
+            <p class="cirtext1">We have exclusive deals with parking lot <br>owners. </p>
+        </section>
+        <section class="cir">
+            <section class="cirimgback"><img class="cirimg" src="assets/rupee.png"></section>
+            <p class="cirtext">Save Time</p>
+            <p class="cirtext1">The average driver spends 15 minutes looking for a parking spot. Using ParkitSR is fast and easy, so you get those 15 minutes back ...to practice your scissor kicks, obviously.<br>
+        </section>
+        <section class="cir">
+            <section class="cirimgback"><img class="cirimg" src="assets/star.png"></section>
+            <p class="cirtext">Save Nerves</p>
+            <p class="cirtext1">We do everything we can to keep you happy before, during, and after your car is parked. And if you need help or something goes wrong, we have a team ready to assist.</p>
+        </section>
+    </section>  
+</section>
+<section class="infosec">
+<p id="store">WHAT'S IN STORE?</p>
+    <section class="holder1">
+        <section class="hold1img">
+            <img class="h1img1" src="assets/phone.png">
+        </section>
+        <section class="hold1text">
+            <p class="h1text1"><b>STEP 1 </b> \ <b>HASSLE FREE BOOKING</b></p>
+            <p class="h1text2">Book spots in just a few clicks. Pick<br>
+the best match available <br>
+at the lowest price.</p>
+        </section>
+    </section>
+
+<section class="holder1">
+        <section class="hold1img">
+            <img class="h1img2" src="assets/pin.png">
+        </section>
+        <section class="hold1text">
+            <p class="h1text1"><b>STEP 2</b> \ <b>NEVER LOOSE SIGHT</b></p>
+            <p class="h1text2">Know where and what is happening with your<br>
+car.Our Live feed enabled dashboard provides you <br>
+comprehensive updates.</p>
+        </section>
+    </section>
+
+<section class="holder1">
+        <section class="hold1img">
+            <img class="h1img3" src="assets/tag.png">
+        </section>
+        <section class="hold1text">
+            <p class="h1text1"><b>STEP 3 </b>\ <b>NO HAGGLING</b></p>
+            <p class="h1text2">We
+give you best real time rates. <br>
+No brokers invloved.</p>
+        </section>
+    </section>
+
+<section class="holder1">
+        <section class="hold1img">
+            <img class="h1img4" src="assets/tick.png">
+        </section>
+        <section class="hold1text">
+            <p class="h1text1"><b>STEP 4 </b>\ <b>WE HANDLES IT ALL</b></p>
+            <p class="h1text2">Leave the nitty gritty tasks to us.<br>
+You can always rely on us for <br>
+document verification and exchange,<br> 
+contact, and payment support.</p>
+        </section>
+    </section>
+
+
+</section><!--infosec close-->
+
+<section class="tesblog">
+    <section class="switch">
+        <a id="tswitch" class="init darker" onclick="switchman('bswitch','tswitch')">TESTIMONIALS</a>
+        <a  class="init" onclick="switchman('tswitch','bswitch')" id="bswitch">BLOGS</a>
+    </section>
+    <section class="testimonial">
+        <section id="test1">
+            <p class="comma">"</p>
+            <p class="review">1 v m cvv m vm vxm mvxnvkx vm xvk zvkv v, ,v  vx  g xkx  mfnzkjnzfm knfzk zfnz gfmknfkf kzfnkxf oxgf 
+kdgnkdgnkdgn kfjmf mfnmf xkxgh  khsf fkjksf mfnksf ndfknvdsmhg </p>
+<p class="name"><b>Jade Rube</b><br>Pharma CFO</p>
+        </section>
+        <section id="test2">
+            <p class="comma">"</p>
+            <p class="review">2 v m cvv m vm vxm mvxnvkx vm xvk zvkv v, ,v  vx  g xkx  mfnzkjnzfm knfzk zfnz gfmknfkf kzfnkxf oxgf 
+kdgnkdgnkdgn kfjmf mfnmf xkxgh  khsf fkjksf mfnksf ndfknvdsmhg </p>
+<p class="name"><b>John Cena</b><br>Spacex CEO</p>
+        </section>
+        <section id="test3">
+            <p class="comma">"</p>
+            <p class="review">3 v m cvv m vm vxm mvxnvkx vm xvk zvkv v, ,v  vx  g xkx  mfnzkjnzfm knfzk zfnz gfmknfkf kzfnkxf oxgf 
+kdgnkdgnkdgn kfjmf mfnmf xkxgh  khsf fkjksf mfnksf ndfknvdsmhg </p>
+<p class="name"><b>Anonymous</b><br>Hadoop CEO</p>
+        </section>
+    </section>
+<section class="tescircle">
+    <img  onclick="toggle_visibilityof3('test1','test2','test3','trans2','trans3','trans1')" id="trans1" class="circle1 lighter" src="assets/blogback.png">
+    <img  onclick="toggle_visibilityof3('test2','test1','test3','trans1','trans3','trans2')" id="trans2" class="circle1" src="assets/blogback.png">
+    <img  onclick="toggle_visibilityof3('test3','test2','test1','trans2','trans1','trans3')" id="trans3" class="circle1 lighter" src="assets/blogback.png">
+</section>
+</section>
+
+<section class="sponsors">
+    <p id="benefits">FEATURED IN</p>
+    <section class="featured">
+        <img src="assets/tc.gif">
+        <img src="assets/tc.gif">
+        <img src="assets/tc.gif">
+        <img src="assets/tc.gif">
+        <img src="assets/tc.gif">
+        <img src="assets/tc.gif">
+        <img src="assets/tc.gif">
+        <img src="assets/tc.gif">
+    </section>
+</section>
+
+<section class="contact">
+    <p id="contacts">CONTACT US</p>
+    <section class="contactform">
+        <input placeholder="Name" type="text" id="name" name="name">
+        <input type="text" placeholder="Company" id="company" name="company">
+        <input placeholder="Phone No." type="text" id="phone" name="phone">
+        <input type="text" id="mail" placeholder="Email id" name="mail">
+        <textarea rows="5" cols="34" id="msg" placeholder="Message"></textarea>
+        <p>captcha</p><input type="text" id="captcha" name="captcha">
+        <a href="" id="submit">SUBMIT</a>
+    </section>
+</section>
+
+<footer>
+    <nav>
+        <a class="footmenu" href="">Help</a>
+        <a class="footmenu" href="">About</a>
+        <a class="footmenu" href="">More</a>
+    </nav>
+    <section class="footsocial">
+        
+        <a href=""><img class="social" src="assets/social2.png"></a>
+        <a href=""><img class="social" src="assets/social3.png"></a>
+        <a href=""><img class="social" src="assets/social4.png"></a>
+    </section>
+    <nav>
+        <a class="footmenu" href="">Privacy policy</a>
+        <a class="footmenu" href="">Terms of Use</a>
+        <a class="footmenu">Copyright &copy; ParkitSR 2016</a>
+    </nav>
+</footer>
+
+</section><!--enclose everything before this-->
+
+
+</div><!-- /#wrapper -->
+
+</body>
+</html>
